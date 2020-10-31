@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Uber Orgnization Chart</title>
+	<meta charset="utf-8" />
+	<link href="common/samples.css" rel="stylesheet" />
+		<script type="text/javascript" src="common/samples.js"></script>
+</head>
+
+<body>
+
+<div id="content" style="top: 60px; bottom: 24px;">
+		<!-- The Diagram component is bound to the canvas element below -->
+		<div style="width: 95%; height: 100%; overflow: auto;  position: absolute; top: 0px; left: 70px;">
+			<canvas id="diagramCanvas" width="2100" height="2100">
+				This page requires a browser that supports HTML 5 Canvas element.
+			</canvas>
+		</div>
+
+		<div style="width: 50px; height: 300px; position: absolute; top: 90px; left: 5px;">
+			<canvas id="zoomer" width="50" height="300">
+			</canvas>
+		</div>
+	</div>
+
+	<script src="scripts/MindFusion.Common.js" type="text/javascript"></script>
+	<script src="scripts/MindFusion.Diagramming.js" type="text/javascript"></script>
+	<script src="UberChart.js" type="text/javascript"></script>
+</body>
+</html>
